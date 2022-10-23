@@ -1,0 +1,40 @@
+body{
+    font-family: 'Ubuntu', sans-serif; 
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1{
+    
+    font-size: 3.5rem; 
+    line-height: 1.5;
+    font-style: bold;
+    
+}
+
+.container-fluid{
+    padding: 2% 15%;
+}
+
+.row{
+    padding-top: 4.5rem;
+}
+
+.btn{
+    margin: 5% 3% 5%;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+.cent{
+    text-align: center;
+}
+
+#features{
+    padding: 7% 15%;
+}
