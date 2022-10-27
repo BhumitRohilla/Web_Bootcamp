@@ -28,7 +28,10 @@ h1{
 
 .title-image{
     width: 60%;
+    translate: 0px 130px;
     transform: rotate(25deg);
+    position: relative;
+    z-index: 0;
 }
 
 .cent{
@@ -37,4 +40,50 @@ h1{
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+
+#testimonials{
+
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.test-img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.press-img{
+    margin: 20px;
+    width: 10%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.card{
+    margin: auto;
+}
+
+.btn-price{
+    width: 80%;
 }
